@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Multi-Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <div class="nav">
+                    <p class="date">August</p>
+                    <ion-icon name="person" class="user"></ion-icon>
+                </div>
+                <ion-icon name="sunny"></ion-icon>
+                <select name="" id="unit-converter">
+                    <option>Temeperature</option>
+                    <option>Currency</option>
+                    <option>Lenght</option>
+                </select>
+                <div class="primary">
+                    <input type="number" id="main-unit">
+                    <select class="main-unit-options">
+                        <option>Celsius</option>
+                        <option>Kelvin</option>
+                        <option>Farenheight</option>
+                    </select>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="secondary">
+                    <input type="number" id="second-unit">
+                    <select class="second-unit-options">
+                        <option>Kelvin</option>
+                        <option>Farenheight</option>
+                        <option>Celsius</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
